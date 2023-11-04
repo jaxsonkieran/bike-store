@@ -65,9 +65,10 @@ nav a {
 }
 
 .banner-area h1{
-    padding-top: 22%;
-    font-size: 30px;
+    padding-top: 25%;
+    font-size: 35px;
     color: white;
+    text-shadow: 1px 1px 1px black;
 }
  .content-area {
     width: 100%;

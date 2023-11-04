@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+}
+
+.wrapper {
+    width:90%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(244, 231, 214);
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    font-weight:light;
+    padding: 36px 10px;
+    margin: 0 1px;
+}
+
+.banner-area {
+    background-image: url(images/homeimage.jpeg);
+    background-size: cover;
+    background-position: center center;
+    top:100px;
+    height: 100vh;
+    width: 100%;
+ 
+}
+
+.banner-area h1{
+    padding-top: 22%;
+    font-size: 30px;
+    color: white;
+}
+ .content-area {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    top: 400px;
+ }
+
+ .content-area h2 {
+    margin:0;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+ }
+.content-area p {
+    font-family: 'Courier Prime', monospace;
+    font-weight: light;
+    padding: 2%;
+    text-align: justify;
+}
